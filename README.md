@@ -31,7 +31,7 @@ in this link should be downloaded.
 
 4. Download MarineGPTVicuna 7B stage 2 model from [here](https://www.dropbox.com/scl/fi/8uimfr9vjk8sa6yyvvnbk/marinegpt_vicuna_7B_stage2_ckpt.pth?rlkey=4cwn4cmgi8gjnqfyds2aqnw8s&e=1&dl=0) and put it inside the marinegpt_weight folder. NOTE: This weights are obtained from marinegpt repository.
 
-5. Run the below file to generate captions for our sample images (located in the images folder).
+5. Run the below file to generate captions for our sample images (located in the test_images folder). Generated captions will be located in the same folder.
 
 ```
 python generate_captions_for_imgs.py
